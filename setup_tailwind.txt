@@ -1,0 +1,48 @@
+You can add CDN check the document
+or 
+installation:
+1. Follow document steps to install tailwind 
+2. Change path in config.js
+3. add tailwind css intellisense extension to the vs code (this will give the class suggestions)
+
+Compile tailwind file:
+1. Download live server in vs code
+2. use "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch" command to run the file in terminal
+or
+1. add "dev" : "tailwindcss -i ./src/input.css -o ./dist/output.css --watch" in script of package.json file
+2. use "npm run dev" command to compile the tailwind file
+
+Customozation:
+* you can learn through "theme Customozation" documentation
+* Customozation can be done in tailwind.config.jss file
+
+Topics to be covered in css:
+* classes (pseudo class)
+* transitions
+* hover, fonts, image, 
+* row, grid, flex box,  box(margin, padding, border, element)
+* positions.
+
+how to add hover properties to more than one functionality using tailwind
+
+<div class="bg-white p-6 rounded-lg shadow ">
+                  <h3 class="text-xl font-semibold mb-4">App Development</h3>
+                  <p class="text-gray-600">Turn your ideas into reality with our cutting-edge app development services.</p>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow">
+                  <h3 class="text-xl font-semibold mb-4">Consulting</h3>
+                  <p class="text-gray-600">Get expert advice and insights to optimize your technology strategy.</p>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow">
+                <h3 class="text-xl font-semibold mb-4">Python</h3>
+                <p class="text-gray-600">Get expert advice and insights to optimize your technology strategy.</p>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow">
+                  <h3 class="text-xl font-semibold mb-4">java</h3>
+                  <p class="text-gray-600">Get expert advice and insights to optimize your technology strategy.</p>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow">
+                <h3 class="text-xl font-semibold mb-4">ReactJs</h3>
+                <p class="text-gray-600">Get expert advice and insights to optimize your technology strategy.</p>
+            </div>
+          </div>

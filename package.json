@@ -1,0 +1,14 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "My project description",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

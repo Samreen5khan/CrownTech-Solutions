@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+.logo_crown{
+    width : 10vh;
+    height: 10vh;
+}
+
+.lang_logo{
+    width : 15vh;
+    height: 15vh;
+}
+
+/* styling the about page svg */
+.custom-shape-divider-bottom-1693059024 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1693059024 svg {
+    position: relative;
+    display: block;
+    width: calc(152% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1693059024 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* intro image is styled here */
+.intro_bg{
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+@media screen and (min-width: 480px){
+    .intro_bg{
+        height:75vh;
+    }
+}
+
+@media screen  and (max-width: 600px){
+    .intro_bg{
+        height:85vh;
+    }
+}
